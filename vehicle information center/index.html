@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vehicle information centre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vehicle information centre QR generate</h1>
+    <h3>Challenge number 1 of Hackathon</h3>
+    <h4>Details of Driver</h4>
+    <form>
+        <label for="dname">vehicle owner name:-</label>
+        <input type="text" placeholder="john" id="name">
+        <br>
+        <label for="dob">Date of Birth:-</label>
+        <input type="date" placeholder="05/4/1997" id="dob">
+        <br>
+        <label for="age">Age:-</label>
+        <input type="number" placeholder="25" id="age">
+        <br>
+        <label for="gender">Gender:-</label>
+        <input type="radio" name="gender" value="Male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="Female" id="female">
+        <label for="female">Female</label>
+        <br>
+       <label for="phone_no">Phone No.:-91 </label> 
+       <input type="text" placeholder="8895464477" id="phone">
+       <br>
+       <label for="email_id">Email id :-</label>
+       <input type="text" placeholder="john123@gmail.com" id="email">
+       <br>
+       <label for="pass">pass valdite:-</label>
+       <br>
+       <label for="start">Starting date</label>
+       <input type="date" placeholder="04/06/2000" id="start">
+       <label for="end">Ending date:-</label>
+       <input type="date" placeholder="04/06/2000" id="end">
+       <br>
+<h4>Documents required for vehicle</h4>
+        <label for="vehicle_no">Vehicle No:- </label>
+        <input type="text" placeholder="JH09A2258" id="no">
+        <br>
+        <label for="rigration_certificate">Rigration Certificate (RC):- </label>
+        <input type="file" id="rc">
+        <br>
+        <label for="Insurance_no">Insurance No:- </label>
+        <input type="text" placeholder="QQ123456C" id="In">
+        <input type="file" id="In">
+        <br>
+        <label for="puc">Pollution under control Certificate (puc):-</label>
+        <input type="file" id="puc">
+        <br>
+        <label for="vehicle_fitness">Vehicle Fitness:-</label>
+        <input type="file" id="vf">
+        <br>
+        <label for="authorization_card">Authorization Card:-</label>
+        <input type="file" id="ac">
+        <br>
+        <label for="mcov">Monthly checklist of vehicle:-</label>
+        <input type="file" id="mv">
+        <br>
+        <input type="submit" value="Submit" onclick="generateqr()">
+        <br>
+        <button onclick="UpadateData()">Update information</button>
+        <br>
+        <button onclick="Deletedata()">Delete information</button>
+        <div id="qrcode">
+    
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

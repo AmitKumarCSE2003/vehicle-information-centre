@@ -1,0 +1,37 @@
+basic project form:-
+--------------------------
+Details of driver:-
+--------------------------
+Vehicle owner name:-
+date of birth:-
+Age:-
+gender:-
+Phone no.:-
+Email id:-
+pass valdite :- starting date    ending date
+
+
+documents required
+---------------------------
+vehicle no. :-
+Rigration certificate : upload
+Insurance no.:-              upload
+pollution under control certificate (puc):- upload
+vehicle fitness:- upload
+Authorization card:- uplaod
+Monthly checklist of vehicle:- upload
+
+submit  update
+
+alert message:-
+-----------------
+write message
+
+send
+
+genration of qr code
+
+
+
+
+
